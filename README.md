@@ -52,23 +52,7 @@ It is recommended to use a virtual environment (e.g., venv or conda) to avoid co
 If you plan to use Tableau or Power BI, install these tools separately.
 Project Structure
 bash
-Copy
-vg-sales-trends/
-├── data/
-│   ├── steam_api_data_games.csv    # Generated CSV with Steam game data
-│   └── ...                         # Other raw or intermediary datasets
-├── scripts/
-│   ├── build_dataset_from_api.py   # Script to fetch game data from the Steam API
-│   ├── data_exploration.py         # Script for Exploratory Data Analysis (EDA)
-│   └── data_visualization.py       # Script to create plots (e.g., price distribution)
-├── visuals/
-│   └── (generated plot images, e.g., .png files)
-├── dashboards/
-│   └── (Tableau/Power BI dashboard files, if any)
-├── .env                            # Contains your STEAM_API_KEY
-├── requirements.txt                # Python dependencies
-└── README.md                       # This file
-Usage
+
 Build the Dataset:
 
 Run the dataset-building script:
